@@ -1,4 +1,8 @@
 export type Message ={
     body: String
-    test: Int
+}
+
+export type User = {
+    name: string
+    messages: Message[]
 }
